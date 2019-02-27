@@ -6,25 +6,36 @@ _"Front End Web Development" refers to the languages that run in a web browser_
 
 
 ## Task 1: File Setup with Github
-  1. Log in to your ![Github](https://github.com/) account.
+  1. Log in to your [Github](https://github.com/) account.
   2. Create a new repository named _yourusernamehere_.github.io
     - it **must** be your username or it won't work.
   3. Open Terminal and make a new directory called dev (from your home directory). Navigate into your new directory
+
     `cd ~`
+
     `mkdir dev`
+
     `cd dev`
   4. Clone your github repository and enter the project folder (replace `username` with _your_ username)
+
     `git clone https://github.com/username/username.github.io`
+
     `cd username.github.io`
   5. Create a file called index.html
+
     `touch index.html`
   6. Add some text to your index.html file
+
     `echo "Hello World" > index.html`
   7. Add, commit, and push your changes
+
     `git add .`
+
     `git commit -m "Initial commit"`
+
     `git push origin master`
   8. Go to your website at https://_username_.github.io
+
     - the first commit might take a few minutes, but future changes should show up pretty quickly
 
 <hr />
@@ -41,20 +52,29 @@ _"Front End Web Development" refers to the languages that run in a web browser_
 
 Some Common Tags:
   - header (goes up to h6!)
+
   `<h1></h1>`
-  - normal paragrap
+  - normal paragraph
+
   `<p></p>`
   - link
+
   `<a></a>`
   - image
+
   `<img />`
   - line break
+
   `<br />`
 
-Find more tags at ![W3 Schools](https://www.w3schools.com/tags/)
+Find more tags at [W3 Schools](https://www.w3schools.com/tags/)
+
+
 
 
 <hr />
+
+
 
 
 ## Task 2: Add some content to your website
@@ -64,7 +84,11 @@ Find more tags at ![W3 Schools](https://www.w3schools.com/tags/)
   _Save time by using https://meettheipsums.com/ for text blocks_
 
 
+
+
 <hr />
+
+
 
 
 
@@ -78,9 +102,17 @@ Find more tags at ![W3 Schools](https://www.w3schools.com/tags/)
     `<link rel="stylesheet" href="styles.css">`
 
 
+
+    <hr />
+
+
+
+
+
 ## Task 3: Add some style to your website
   1. add the new `<link>` relation tag to your `<head>` element
   2. create your CSS file in terminal and open it in your text editor
+
     `touch styles.css`
   3. change the background color of your webpage to make sure they are connected
 
@@ -91,8 +123,11 @@ Find more tags at ![W3 Schools](https://www.w3schools.com/tags/)
 ### CSS terminology and syntax
 
 p {
+
 color: green;
+
 font-weight: bold;
+
 }
 
 **Selectors** are the HTML element that you want to apply styles to.
@@ -107,4 +142,4 @@ _always end with a semicolon!_
 
 **Values** are specific to the property.
 
-##### Find more properties at ![codrops](https://tympanus.net/codrops/css_reference/)
+##### Find more properties at [codrops](https://tympanus.net/codrops/css_reference/)
