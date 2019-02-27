@@ -7,32 +7,32 @@ _"Front End Web Development" refers to the languages that run in a web browser_
 
 ## Task 1: File Setup with Github
   1. Log in to your [Github](https://github.com/) account.
-  
+
   2. Create a new repository named _yourusernamehere_.github.io
 
-    - it **must** be your username or it won't work.
+      - it **must** be your username or it won't work.
 
   3. Open Terminal and make a new directory called dev (from your home directory). Navigate into your new directory
 
-  `cd ~`
+      `cd ~`
 
-  `mkdir dev`
+      `mkdir dev`
 
-  `cd dev`
+      `cd dev`
 
   4. Clone your github repository and enter the project folder (replace `username` with _your_ username)
 
-  `git clone https://github.com/username/username.github.io`
+      `git clone https://github.com/username/username.github.io`
 
-  `cd username.github.io`
+      `cd username.github.io`
 
   5. Create a file called index.html
 
-  `touch index.html`
+      `touch index.html`
 
   6. Add some text to your index.html file
 
-  `echo "Hello World" > index.html`
+      `echo "Hello World" > index.html`
 
   7. Add, commit, and push your changes
 
@@ -45,7 +45,7 @@ _"Front End Web Development" refers to the languages that run in a web browser_
 
   8. Go to your website at https://_username_.github.io
 
-  - the first commit might take a few minutes, but future changes should show up pretty quickly
+      - the first commit might take a few minutes, but future changes should show up pretty quickly
 
 <hr />
 
@@ -59,7 +59,7 @@ _"Front End Web Development" refers to the languages that run in a web browser_
 
  - HTML uses `<tags>` to create elements and format content
 
-  `<h1>Colleen Cleary</h1>`
+      `<h1>Colleen Cleary</h1>`
 
 Some Common Tags:
   - header (goes up to h6!) `<h1></h1>`
@@ -111,7 +111,7 @@ Find more tags at [W3 Schools](https://www.w3schools.com/tags/)
 
   - CSS is called in the `<head>` element using a new tag
 
-  `<link rel="stylesheet" href="styles.css">`
+      `<link rel="stylesheet" href="styles.css">`
 
 
 
@@ -126,7 +126,7 @@ Find more tags at [W3 Schools](https://www.w3schools.com/tags/)
 
   2. create your CSS file in terminal and open it in your text editor
 
-  `touch styles.css`
+      `touch styles.css`
 
   3. change the background color of your webpage to make sure they are connected
 
@@ -150,7 +150,7 @@ font-weight: bold;
 
 **Declarations** are style rules, written as:
   property: value;
-_always end with a semicolon!_
+    _always end with a semicolon!_
 
 **Properties** are the type of style.
 
