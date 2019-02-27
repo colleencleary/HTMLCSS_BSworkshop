@@ -137,11 +137,11 @@ Find more tags at [W3 Schools](https://www.w3schools.com/tags/)
 ### CSS terminology and syntax
 
 `p {`
-` `
+
 `color: green;`
-`  `
+
 `font-weight: bold;`
-` `
+
 `}`
 
 **Selectors** are the HTML element that you want to apply styles to.
